@@ -65,4 +65,14 @@ console.log("------- 8 uduotis");
  let south = "Don't Be a Menace to South Central While Drinking Your Juice in the Hood";
  let pietu = "Tik nereikia gąsdinti Pietų Centro, geriant sultis pas save kvartale";
 
- console.log();
+ console.log(south);
+ const myArray = south.split(" ");
+ let len = myArray.length;
+ console.log(len);
+
+    let min = 0;
+      if (south[len] <= 5) {
+        min++;
+      }
+    console.log(min);
+ 
