@@ -35,3 +35,12 @@ console.log(letter);
 // 5 uzd
 
 console.log("------- 5 uduotis");
+let zvaigz = "An American in Paris ";
+console.log( zvaigz.replace(/a|A/g, "*") );
+
+// 6 uzd
+
+console.log("------- 6 uduotis");
+
+
+
