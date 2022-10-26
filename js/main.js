@@ -59,7 +59,7 @@ let starWars = "Star Wars: Episode "+ num + " - A New Hope";
 console.log(starWars);
 console.log(num);
 
-// 8 uzd
+// 8 uzd ???
 
 console.log("------- 8 uduotis");
  let south = "Don't Be a Menace to South Central While Drinking Your Juice in the Hood";
@@ -76,3 +76,18 @@ console.log("------- 8 uduotis");
       }
     console.log(min);
  
+
+// 9 uzd
+
+console.log("------- 9 uduotis");
+
+    function makeid(length) {
+        var result           = '';
+        var characters       = 'abcdefghijklmnopqrstuvwxyz';
+        var charactersLength = characters.length;
+        for ( var i = 0; i < length; i++ ) {
+            result += characters.charAt(Math.floor(Math.random() * charactersLength));
+        }
+        return result;
+    }
+    console.log(makeid(3));
